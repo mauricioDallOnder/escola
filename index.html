@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>planilha</title>
+    <meta charset="utf-8" />
+</head>
+<header>
+    <section>
+        <link rel="stylesheet" type="text/css" href="./css/pesquisa_styles.css" media="all" />
+        <nav>
+            <ul class="nav nav-pills nav-fill">
+                <li class="nav-item">
+                    <a class="nav-link active" href="./cadastro.html">cadastro de alunos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="./altera_dados.html">alterar dados</a>
+                </li>
+            </ul>
+        </nav>
+    </section>
+    <section id="pesquisa" style="padding:20px;margin-top:30px;background-color:#1abc9c;height:80px;">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <form class="form-inline">
+            <input type="search" placeholder="Procurar" aria-label="Search" id="myInput" onkeyup="myFunction()">
+        </form>
+    </section>
+</header>
+
+<body>
+    <section>
+        <table id="myTable">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>NOME</th>
+                    <th>NASCIMENTO</th>
+                    <th>MÃE</th>
+                    <th>PAI</th>
+                    <th>TURMA</th>
+                    <th>TELEFONE</th>
+                    <th>CODIGO BIBLIOTECA</th>
+                    <th>NATURALIDADE</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </section>
+    <script src="./scripts/scripts.js"></script>
+</body>
+
+</html>
