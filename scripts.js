@@ -1,5 +1,5 @@
 const tabela = document.getElementById('myTable')
-fetch("https://api.sheety.co/75110c3f4d8b34c685cc29628959d0f7/atestadoDeEscolaridade/bancoDeDados/página1")
+fetch('https://sheetdb.io/api/v1/xfdci3e8mss8m?sheet=Página1')
     .then(response => response.json()) // retorna uma promise
     .then(result => {
         for (i in result) {
