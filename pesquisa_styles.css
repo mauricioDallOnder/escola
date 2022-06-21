@@ -1,0 +1,69 @@
+ #myTable {
+     font-family: Arial, Helvetica, sans-serif;
+     border-collapse: collapse;
+     width: 100%;
+ }
+
+ #myTable td,
+ #myTable th {
+     border: #4e95f4 1px solid;
+     padding: 8px;
+ }
+
+ #myTable tr:nth-child(odd) {
+     background-color: #b8d1f3;
+ }
+
+ #myTable tr:nth-child(even) {
+     background-color: #dae5f4;
+ }
+
+ #myTable th {
+     padding-top: 12px;
+     padding-bottom: 12px;
+     text-align: center;
+     background-color: #333;
+     color: white;
+ }
+
+ body {
+     margin: 0;
+ }
+
+ ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: #333;
+     position: fixed;
+     top: 0;
+     width: 100%;
+ }
+
+ li {
+     float: left;
+ }
+
+ li a {
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+     border: 1px solid #ddd;
+ }
+
+ #myInput {
+     background-position: 10px 10px;
+     background-repeat: no-repeat;
+     width: 100%;
+     font-size: 16px;
+     padding: 12px 20px 12px 40px;
+     border: 1px solid #ddd;
+     margin-bottom: 12px;
+ }
+
+ .active {
+     background-color: #04AA6D;
+ }

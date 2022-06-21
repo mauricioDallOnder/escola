@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/cadastro_style.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <title>Document</title>
+</head>
+<header>
+    <nav class="container">
+        <a href="./index.html">Pesquisar Alunos</a>
+    </nav>
+</header>
+
+<body>
+    <section id="formulario">
+        <img src="./logo da escola.png" alt="escola santa corona" id="logo">
+        <form
+            action="https://api.sheety.co/75110c3f4d8b34c685cc29628959d0f7//atestadoDeEscolaridade/bancoDeDados/página1/página1"
+            method="POST" id="sheetdb-form">
+            <label for="id">ID</label>
+            <br>
+            <input name="data[id]" id="id" class="form-control" required>
+            <br>
+            <label for="nome">NOME</label>
+            <br>
+            <input name="data[nome_do_aluno]" id="nome" class="form-control" rows="1" required>
+            <br>
+            <label for="nsc">nascimento</label>
+            <br>
+            <input type="date" name="data[data_de_nascimento]" id="nsc" class="form-control" rows="1" required>
+            <br>
+            <label for="doc">documento</label>
+            <br>
+            <input name="data[certidao_cpf_rg]" id="doc" class="form-control" rows="1" required>
+            <br>
+            <label for="livro">livro</label>
+            <br>
+            <input name="data[livro]" id="livro" class="form-control" rows="1" required>
+            <br>
+            <label for="folha">folha</label>
+            <br>
+            <input name="data[folha]" id="folha" class="form-control" rows="1" required>
+            <br>
+            <label for="mae">mae</label>
+            <br>
+            <input name="data[mae]" id="mae" class="form-control" rows="1" required>
+            <br>
+            <label for="pai">pai</label>
+            <br>
+            <input name="data[pai]" id="pai" class="form-control" rows="1" required>
+            <br>
+            <label for="naturalidade">naturalidade</label>
+            <br>
+            <input name="data[naturalidade]" id="natu" class="form-control" rows="1" required>
+            <br>
+            <label for="TELEFONE">telefone</label>
+            <br>
+            <input name="data[telefone]" id="telefone" class="form-control" rows="1" required>
+            <br>
+            <br>
+            <button type="submit" class="button">ENVIAR DADOS</button>
+        </form>
+    </section>
+    <script src="./scripts/envia.js"></script>
+</body>
+
+</html>
