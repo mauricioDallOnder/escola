@@ -1,5 +1,5 @@
 const tabela = document.getElementById('myTable')
-fetch('https://sheetdb.io/api/v1/xfdci3e8mss8m?sheet=Página1')
+fetch('https://sheetdb.io/api/v1/dawhudst1ngau?sheet=pagina1')
     .then(response => response.json()) // retorna uma promise
     .then(result => {
         for (i in result) {
